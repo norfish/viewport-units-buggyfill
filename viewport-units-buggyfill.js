@@ -62,6 +62,11 @@
         return false;
       }
 
+      var isStrangeHuawei = userAgent.indexOf('MHA-AL00') > -1;
+      if (isStrangeHuawei) {
+        return true;
+      }
+
       var versionNumber = parseFloat((userAgent.match('Android ([0-9.]+)') || [])[1]);
       // anything below 4.4 uses WebKit without *any* viewport support,
       // 4.4 has issues with viewport units within calc()
