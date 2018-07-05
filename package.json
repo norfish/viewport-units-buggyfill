@@ -1,5 +1,5 @@
 {
-  "name": "viewport-units-buggyfill2",
+  "name": "viewport-units-buggyfill3",
   "version": "0.7.3",
   "title": "Viewport Units Buggyfill for Mobile Safari",
   "description": "Making viewport units (vh|vw|vmin|vmax) work properly in older WebKit and Trident. fork from viewport-units-buggyfill",
